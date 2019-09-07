@@ -1,0 +1,7 @@
+---
+      instance_type: t2.micro
+      security_group: tomcat # Change the security group name here
+      image: ami-009ac95229cc07041 # Change the AMI, from which you want to launch the server
+      region: us-east-2 # Change the Region
+      keypair: testCIS # Change the keypair name
+      count: 1

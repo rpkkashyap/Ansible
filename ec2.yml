@@ -1,0 +1,9 @@
+  - name: Provialled
+    hosts: local
+    connection: local
+    gather_facts: False
+    tags: provisioning
+    roles:
+       - tomcat
+    vars_files:
+       - vars/var.yml
